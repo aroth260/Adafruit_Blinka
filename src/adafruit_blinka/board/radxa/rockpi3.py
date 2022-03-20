@@ -1,5 +1,5 @@
 
-from adafruit_blinka.microcontroller.rockchip.rk3399 import pin
+from adafruit_blinka.microcontroller.rockchip.rk3568 import pin
 
 
 D38 = pin.GPIO3_A6  # /PIN 102/
@@ -58,7 +58,7 @@ UART4_RX = D21
 UART_TX = UART2_TX
 UART_RX = UART2_RX
 
-PWM0 = pin.PWM0
 PWM1 = pin.PWM1
+PWM2 = pin.PWM2
 
 ADC_IN0 = pin.ADC_IN0
