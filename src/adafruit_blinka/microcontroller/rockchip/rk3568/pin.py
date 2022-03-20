@@ -68,10 +68,14 @@ UART8_TX = GPIO2_D7
 UART9_RX = GPIO4_C6
 UART9_TX = GPIO4_C5
 # PWM
-PWM0 = GPIO0_C0
-PWM1 = GPIO0_B5 #????
-PWM2 = 
-PWM3 = 
+PWM1 = GPIO0_C0
+PWM2 = GPIO0_C1
+PWM9 = GPIO3_B2
+PWM12 = GPIO3_B7
+PWM13 = GPIO3_C0
+PWM14 = GPIO3_C4
+PWM15 = GPIO3_C5
+
 # ordered as i2cId, SCL, SDA
 i2cPorts = (
     (0, I2C1_SCL, I2C1_SDA),
@@ -84,8 +88,13 @@ spiPorts = ((1, SPI1_SCLK, SPI1_MOSI, SPI1_MISO),)
 
 # SysFS pwm outputs, pwm channel and pin in first tuple
 pwmOuts = (
-    ((0, 0), PWM0),
-    ((1, 0), PWM1),
+    ((0, 0), PWM1),
+    ((1, 0), PWM2),
+    ((1, 0), PWM9),
+    ((1, 0), PWM12),
+    ((1, 0), PWM13),
+    ((1, 0), PWM14),
+    ((1, 0), PWM15),
 )
 
 # SysFS analog inputs, Ordered as analog analogInId, device, and channel
