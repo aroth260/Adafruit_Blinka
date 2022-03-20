@@ -88,13 +88,13 @@ spiPorts = ((1, SPI1_SCLK, SPI1_MOSI, SPI1_MISO),)
 
 # SysFS pwm outputs, pwm channel and pin in first tuple
 pwmOuts = (
-    ((0, 0), PWM1),
-    ((1, 0), PWM2),
-    ((1, 0), PWM9),
-    ((1, 0), PWM12),
-    ((1, 0), PWM13),
-    ((1, 0), PWM14),
-    ((1, 0), PWM15),
+    ((1, 0), PWM1),
+    ((2, 0), PWM2),
+    ((9, 0), PWM9),
+    ((12, 0), PWM12),
+    ((13, 0), PWM13),
+    ((14, 0), PWM14),
+    ((15, 0), PWM15),
 )
 
 # SysFS analog inputs, Ordered as analog analogInId, device, and channel
