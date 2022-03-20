@@ -110,9 +110,18 @@ class I2C(Lockable):
             )
         from microcontroller.pin import i2cPorts
 
+        print(scl.id)
+        print(sda.id)
+        print(scl)
+        print(sda)
         for portId, portScl, portSda in i2cPorts:
             try:
                 # pylint: disable=unexpected-keyword-arg
+                print("HERE")
+                print(portScl.id)
+                print(portSda.id)
+                print(portScl)
+                print(portSda)
                 if scl == portScl and sda == portSda:
                     self._i2c = _I2C(portId, mode=_I2C.MASTER, baudrate=frequency)
                     break
