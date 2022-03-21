@@ -60,4 +60,4 @@ UART_RX = UART2_RX
 PWM1 = pin.PWM1
 PWM2 = pin.PWM2
 
-ADC_IN0 = pin.ADC_IN0
+ADC_IN5 = pin.ADC_IN5
