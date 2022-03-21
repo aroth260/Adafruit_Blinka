@@ -34,8 +34,7 @@ GPIO3_C2 = Pin(114)
 GPIO3_A2 = Pin(98)
 GPIO3_A6 = Pin(102)
 GPIO3_A5 = Pin(101)
-
-ADC_IN0 = 1
+ADC_IN5 = 1
 
 # I2C
 I2C2_SDA = GPIO0_B6
@@ -96,4 +95,4 @@ pwmOuts = (
 )
 
 # SysFS analog inputs, Ordered as analog analogInId, device, and channel
-analogIns = ((ADC_IN0, 0, 0),)
+analogIns = ((ADC_IN5, 0, 0),)
