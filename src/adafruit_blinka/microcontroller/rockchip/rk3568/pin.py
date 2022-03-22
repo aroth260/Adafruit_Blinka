@@ -71,6 +71,8 @@ UART9_TX = GPIO4_C5
 PWM1 = GPIO0_C0
 PWM2 = GPIO0_C1
 PWM9 = GPIO3_B2
+PWM12 = GPIO3_B7
+PWM13 = GPIO3_C0
 PWM14 = GPIO3_C4
 PWM15 = GPIO3_C5
 
@@ -89,6 +91,8 @@ pwmOuts = (
     ((1, 0), PWM1),
     ((2, 0), PWM2),
     ((9, 0), PWM9),
+    ((12, 0), PWM12),
+    ((13, 0), PWM13),
     ((14, 0), PWM14),
     ((15, 0), PWM15),
 )
