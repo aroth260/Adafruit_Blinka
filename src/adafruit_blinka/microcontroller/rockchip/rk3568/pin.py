@@ -79,8 +79,8 @@ PWM15 = GPIO3_C5
 # ordered as i2cId, SCL, SDA
 i2cPorts = (
     (0, I2C1_SCL, I2C1_SDA),
-    (1, I2C2_SCL, I2C2_SDA),
-    (7, I2C3_SCL, I2C3_SDA),
+    (2, I2C2_SCL, I2C2_SDA),
+    #(5, I2C3_SCL, I2C3_SDA),
 )
 
 # ordered as spiId, sckId, mosiId, misoId
